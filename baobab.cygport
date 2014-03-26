@@ -8,3 +8,5 @@ SUMMARY="GNOME filesystem monitor"
 DESCRIPTION="Includes six GNOME Desktop utilities: baobab (filesystem monitor),
 gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
 gnome-system-log."
+
+PATCH_URI="3.10.1-glib-gettext.patch"
