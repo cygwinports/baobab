@@ -1,15 +1,13 @@
 inherit gnome2
 
 NAME="baobab"
-VERSION=3.18.1
+VERSION=3.22.1
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME filesystem monitor"
 DESCRIPTION="Includes six GNOME Desktop utilities: baobab (filesystem monitor),
 gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
 gnome-system-log."
-
-PATCH_URI="3.10.1-glib-gettext.patch"
 
 # Uses -export-dynamic but not with libtool
 LDFLAGS="-Wl,--export-all-symbols"
